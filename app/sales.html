@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decorrum</title>
+
+  <link rel="stylesheet" href="css/template.css">
+  <link rel="stylesheet" href="css/application.css">
+  <script src="vendor/jquery.js"></script>
+  <script src="vendor/jquery.modal.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/application.js"></script>
+</head>
+<body>
+  <div class="blur">
+    @@include('header');
+    <section class="sale-actual promo">
+      <div class="wrapper wrapper_left wrapper_promo">
+        <div class="promo__bg promo__bg-left revealator-duration10 revealator-slidedown revealator-once revealator-above revealator-within"></div>
+        <img class="promo__image revealator-duration10 revealator-slidedown revealator-once revealator-above revealator-within" src="" alt="">
+        <a class="category category_right" href="#section2">Новое</a>
+        <p class="title revealator-sliderleft revealator-delay4 revealator-once revealator-above revealator-within">Обои Garden от IDwall со скидкой 7% </p>
+        <p class="text revealator-sliderleft revealator-delay4 revealator-once revealator-above revealator-within">Обои Garden от IDwall со скидкой 7</p>
+        <a class="button button_left" href="/sale/oboi_garden_ot_idwall_so_skidkoy_7_/">Подробнее</a>
+      </div>
+    </section>  
+    <section class="sales promo">
+      <div class="wrapper wrapper_promo wrapper-justify-between">
+        <div class="sales-list">
+          @@include('sale-detail');
+          @@include('sale-detail');
+        </div>
+      </div>
+    </section>
+    @@include('footer');
+  </div>
+
+  @@include('modal-login');
+</body>
+</html>

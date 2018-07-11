@@ -15,38 +15,10 @@
 <body>
   <div class="blur">
     @@include('header');
-
+    <section></section>
+    @@include('footer');
   </div>
-  <section class="site-layout">
-    <div class="result-wrapper">
 
-      <div class="result">
-        <div class="result-info">
-          Reached:
-        </div>
-        <div class="result-progress-wrapper">
-          <div class="progress js-result-progress">
-            <div class="progress-bar js-progress-bar">
-              <div class="progress-label js-progress-label">
-                $<span class="js-label-info">0</span>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="result-target js-result-target">
-          <div class="result-target-text">
-            Target
-          </div>
-          <div class="result-target-amount">
-            $15
-          </div>
-        </div>
-      </div>
-      <div class="result-description js-result-description">
-        <span class="result-description-icon"><i class="icon icon-info"></i></span>You need $<span class="js-need-more">1</span> more to reach your target.
-      </div>
-    </div>
-  </section>
+  @@include('modal-login');
 </body>
 </html>

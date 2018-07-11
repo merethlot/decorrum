@@ -47,7 +47,7 @@ gulp.task('css', function () {
 });
 
 gulp.task('fonts', function () {
-    gulp.src('app/fonts/**/*.fonts')
+    gulp.src('app/fonts/**/*')
         .pipe(gulp.dest('dist/fonts/'))
         .pipe(reload({stream: true}));
 });
@@ -82,11 +82,14 @@ gulp.task('build', [
 ]);
 
 gulp.task('watch', function(){
-    gulp.watch('app/*.html', function(event, cb) {
+    gulp.watch(['app/*.html', 'app/partials/*.html'], function(event, cb) {
         gulp.start('html');
     });
     gulp.watch('app/css/**/*.css', function(event, cb) {
         gulp.start('css');
+    });
+    gulp.watch('app/fonts/**/*.*', function(event, cb) {
+        gulp.start('fonts');
     });
     gulp.watch('app/less/**/*.less', function(event, cb) {
         gulp.start('less');
