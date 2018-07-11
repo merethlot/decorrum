@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decorrum</title>
+
+  <link rel="stylesheet" href="css/template.css">
+  <link rel="stylesheet" href="css/application.css">
+  <script src="vendor/jquery.js"></script>
+  <script src="vendor/jquery.modal.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/application.js"></script>
+</head>
+<body>
+  <div class="blur">
+<header class="header">
+<div id="title-search" class="header__search__container">
+<form action="/catalog/" class="header__search">
+<input id="title-searchs-input" type="text" name="q" value="" class="header__search-input" autocomplete="off"/>
+<button class="header__search-button" type="submit"></button>
+<!--                <input name="s" type="submit" value="Поиск" class="header__search" />-->
+<p>Поиск</p>
+</form>
+</div>
+<script type="text/javascript">var jsControl=new JCTitleSearch({'AJAX_PAGE':'/','CONTAINER_ID':'title-search','INPUT_ID':'title-searchs-input','MIN_QUERY_LEN':2});</script>
+<div class="wrapper wrapper_header">
+<a class="header__phone" href="tel:+7(383)310-10-15">+7 (383) 310-10-15</a>
+<a class="header__logo" href="/"></a>
+<div class="header__account ">
+<button class="header__login" type="button">Вход</button>
+<span>/</span>
+<a class="header__registration" href="/auth/registration/">Регистрация</a>
+</div>
+<button class="header__menu-btn" type="button">
+<div class="menu-btn-wrap">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</button>
+<nav class="header__menu">
+<ul>
+<li class='header__menu-item '>
+<a href="/catalog/oboi/">
+Обои </a>
+</li>
+<li class='header__menu-item '>
+<a href="/catalog/keramicheskaya-plitka/">
+Керамика </a>
+</li>
+<li class='header__menu-item '>
+<a href="/catalog/santekhnika/">
+Сантехника </a>
+</li>
+<li class='header__menu-item '>
+<a href="/catalog/lepnoy-dekor/">
+Лепной декор </a>
+</li>
+<li class='header__menu-item '>
+<a href="/catalog/kraska/">
+Краска </a>
+</li>
+<li class='header__menu-item '>
+<a href="/catalog/pvkh-plitka/">
+ПВХ плитка </a>
+</li>
+<li class='header__menu-item '>
+<a href="/catalog/kovrovaya-plitka/">
+Ковровая плитка </a>
+</li>
+<li class='header__menu-item '>
+<a href="/catalog/laminat/">
+Ламинат </a>
+</li>
+<li class='header__menu-item header__menu-item_hidden'>
+<a href="/company/news/">
+Новости </a>
+</li>
+<li class='header__menu-item header__menu-item_hidden'>
+<a href="/contacts/">
+Контакты </a>
+</li>
+<li class='header__menu-item header__menu-item_hidden'>
+<a href="/catalog/?q=">
+Поиск </a>
+</li>
+</ul>
+<ul class="header__social">
+<!--                            <a class="social__link svk" href="javascript:void(0)"></a>
+                            <a class="social__link sfb" href="javascript:void(0)"></a>-->
+<a class="social__link sinst" href="https://www.instagram.com/deconsk/"></a>
+<a class="social__link sflamp" href="https://novosibirsk.flamp.ru/firm/dekorrum_set_interernykh_salonov-141265771736736"></a>
+</ul>
+</nav>
+</div>
+<div class="header__cart">
+<a href="/basket/" title="">
+<p><a href="/basket/" title="">Корзина</a></p>
+<span class="header__cart-mark"></span>
+</a>
+</div>
+</header>
+
+  </div>
+  <section class="site-layout">
+    <div class="result-wrapper">
+
+      <div class="result">
+        <div class="result-info">
+          Reached:
+        </div>
+        <div class="result-progress-wrapper">
+          <div class="progress js-result-progress">
+            <div class="progress-bar js-progress-bar">
+              <div class="progress-label js-progress-label">
+                $<span class="js-label-info">0</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="result-target js-result-target">
+          <div class="result-target-text">
+            Target
+          </div>
+          <div class="result-target-amount">
+            $15
+          </div>
+        </div>
+      </div>
+      <div class="result-description js-result-description">
+        <span class="result-description-icon"><i class="icon icon-info"></i></span>You need $<span class="js-need-more">1</span> more to reach your target.
+      </div>
+    </div>
+  </section>
+</body>
+</html>

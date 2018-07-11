@@ -1,0 +1,22 @@
+{
+  "name": "decorrum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mererthlot",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-less": "^4.0.0",
+    "main-bower-files": "^2.13.1"
+  },
+  "dependencies": {
+    "gulp-include-html": "^1.0.14"
+  }
+}
