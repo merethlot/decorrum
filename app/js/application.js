@@ -37,5 +37,7 @@ function prepare_modals() {
 
 $(document).ready(function () {
   prepare_modals();
-  
+  var Switchery = require('switchery');
+  var elem = document.querySelector('.js-switch');
+  var init = new Switchery(elem, { color: '#ff4222', className: 'switchery switchery-sm' });
 })
