@@ -3,33 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Decorrum</title>
+  <title>Decorrum - Акции</title>
 
   <link rel="stylesheet" href="css/template.css">
   <link rel="stylesheet" href="css/application.css">
   <script src="vendor/jquery.js"></script>
   <script src="vendor/jquery.modal.js"></script>
   <script src="js/template.js"></script>
+  <script src="js/switchery.min.js"></script>
   <script src="js/application.js"></script>
 </head>
-<body>
+<body class="inner">
   <div class="blur">
     @@include('header');
+    <div class="page-header">
+      <div class="wrapper">
+        <div class="pull-left">
+          <input type="checkbox" data-init-plugin="switchery" data-size="small" data-color="primary" checked="checked" data-switchery="true" style="display: none;">
+          <span class="switchery switchery-small" style="background-color: rgb(109, 92, 174); border-color: rgb(109, 92, 174); box-shadow: rgb(109, 92, 174) 0px 0px 0px 11px inset; transition: border 0.4s, box-shadow 0.4s, background-color 1.2s;"><small style="left: 13px; background-color: rgb(255, 255, 255); transition: left 0.2s;"></small></span>
+        </div>
+        <h1 class="page-heading">
+          Акции
+        </h1>
+      </div>
+    </div>
     <section class="sale-actual promo">
       <div class="wrapper wrapper_left wrapper_promo">
         <div class="promo__bg promo__bg-left revealator-duration10 revealator-slidedown revealator-once revealator-above revealator-within"></div>
-        <img class="promo__image revealator-duration10 revealator-slidedown revealator-once revealator-above revealator-within" src="" alt="">
+        <img class="promo__image promo__image-right revealator-duration10 revealator-slidedown revealator-once revealator-above revealator-within" src="../pic/sale-pic-0.jpg" alt="">
         <a class="category category_right" href="#section2">Новое</a>
         <p class="title revealator-sliderleft revealator-delay4 revealator-once revealator-above revealator-within">Обои Garden от IDwall со скидкой 7% </p>
         <p class="text revealator-sliderleft revealator-delay4 revealator-once revealator-above revealator-within">Обои Garden от IDwall со скидкой 7</p>
         <a class="button button_left" href="/sale/oboi_garden_ot_idwall_so_skidkoy_7_/">Подробнее</a>
       </div>
-    </section>  
+    </section>
     <section class="sales promo">
       <div class="wrapper wrapper_promo wrapper-justify-between">
         <div class="sales-list">
-          @@include('sale-detail');
-          @@include('sale-detail');
+          @@include('sale-item');
+          @@include('sale-item');
+          @@include('sale-item');
+          @@include('sale-item');
+        </div>
+        <div class="text-center">
+          <a href="" class="button">
+            Показать еще
+          </a>
         </div>
       </div>
     </section>
