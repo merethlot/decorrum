@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "decorrum";
+  src:url("fonts/decorrum.eot");
+  src:url("fonts/decorrum.eot?#iefix") format("embedded-opentype"),
+    url("fonts/decorrum.woff") format("woff"),
+    url("fonts/decorrum.ttf") format("truetype"),
+    url("fonts/decorrum.svg#decorrum") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "decorrum" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="dc-"]:before,
+[class*=" dc-"]:before {
+  font-family: "decorrum" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dc-flamp:before {
+  content: "\61";
+}
+.dc-arrow-right:before {
+  content: "\63";
+}
+.dc-arrow-left:before {
+  content: "\64";
+}
+.dc-close:before {
+  content: "\65";
+}
+.dc-menu:before {
+  content: "\66";
+}
+.dc-lock:before {
+  content: "\67";
+}
+.dc-enter:before {
+  content: "\68";
+}
+.dc-lock-1:before {
+  content: "\69";
+}
+.dc-door:before {
+  content: "\6a";
+}
+.dc-person:before {
+  content: "\6b";
+}
+.dc-unlock:before {
+  content: "\6c";
+}
+.dc-cart:before {
+  content: "\6d";
+}
+.dc-search-long:before {
+  content: "\6f";
+}
+.dc-search:before {
+  content: "\70";
+}
+.dc-map-marker:before {
+  content: "\71";
+}
+.dc-scroll:before {
+  content: "\73";
+}
+.dc-eye:before {
+  content: "\74";
+}
+.dc-scissors:before {
+  content: "\75";
+}
+.dc-scissors-half:before {
+  content: "\76";
+}
+.dc-arrow-down:before {
+  content: "\77";
+}
+.dc-arrow-down-2:before {
+  content: "\78";
+}
+.dc-bag:before {
+  content: "\79";
+}
+.dc-bag-sm:before {
+  content: "\7a";
+}
+.dc-plus:before {
+  content: "\41";
+}
+.dc-vk:before {
+  content: "\42";
+}
+.dc-all-op:before {
+  content: "\6e";
+}
+.dc-download:before {
+  content: "\43";
+}
+.dc-map-marker-o:before {
+  content: "\44";
+}
+.dc-all:before {
+  content: "\72";
+}
+.dc-love-o:before {
+  content: "\62";
+}
+.dc-love-1:before {
+  content: "\45";
+}
+.dc-book:before {
+  content: "\46";
+}
+.dc-circle:before {
+  content: "\47";
+}
+.dc-medal:before {
+  content: "\48";
+}
+.dc-card:before {
+  content: "\49";
+}
+.dc-phone:before {
+  content: "\4a";
+}
+.dc-envelope:before {
+  content: "\4b";
+}
+.dc-logout:before {
+  content: "\4c";
+}
+.dc-bell:before {
+  content: "\4d";
+}
+.dc-box:before {
+  content: "\4e";
+}
+.dc-back-curl:before {
+  content: "\4f";
+}
+.dc-trash:before {
+  content: "\50";
+}
+.dc-print:before {
+  content: "\51";
+}
+.dc-question:before {
+  content: "\52";
+}

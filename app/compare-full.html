@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decorrum - Сравнение товаров</title>
+
+  @@include('head');
+</head>
+<body class="inner">
+  <div class="blur">
+    @@include('header');
+    <div class="page-header">
+      <div class="wrapper">
+        <div class="page-header-back">
+          Вернуться назад
+          <div class="nav-tabs nav-tabs-compare">
+            <a href="" class="tab active">Все характеристики</a>
+            <a href="" class="tab">Только отличия</a>
+          </div>
+        </div>
+        <h1 class="page-heading text-center">
+          Сравнение товаров
+        </h1>
+      </div>
+    </div>
+    <section class="compare-section">
+      <div class="wrapper">
+        <div class="compare-list-wrapper">
+          <div class="compare-col-properties compare-col">
+            <div class="compare-img"></div>
+            <div class="compare-table-prop">
+              <div class="compare-prop">
+                Артикул
+              </div>
+              <div class="compare-prop">Цвета</div>
+              <div class="compare-prop">Типы рисунков</div>
+              <div class="compare-prop">Способ нанесения клея</div>
+              <div class="compare-prop">Стойкость к выгоранию</div>
+              <div class="compare-prop">Влагостойкость </div>
+              <div class="compare-prop">Материал</div>
+              <div class="compare-prop">Способ удаления</div>
+              <div class="compare-prop">Ширина</div>
+              <div class="compare-prop">Длина</div>
+              <div class="compare-prop">Раппорт </div>
+              <div class="compare-prop">Страна</div>
+            </div>
+          </div>
+          @@include('compare-product');
+          @@include('compare-product');
+          @@include('compare-product');
+          @@include('compare-product');
+          @@include('compare-product');
+        </div>
+      </div>
+    </section>
+    @@include('footer');
+  </div>
+
+  @@include('modal-login');
+</body>
+</html>

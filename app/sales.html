@@ -4,14 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Decorrum - Акции</title>
-
-  <link rel="stylesheet" href="css/template.css">
-  <link rel="stylesheet" href="css/application.css">
-  <script src="vendor/jquery.js"></script>
-  <script src="vendor/jquery.modal.js"></script>
-  <script src="js/template.js"></script>
-  <script src="js/switchery.js"></script>
-  <script src="js/application.js"></script>
+  @@include('head');
+  
 </head>
 <body class="inner">
   <div class="blur">
@@ -31,7 +25,7 @@
       <div class="wrapper wrapper_left wrapper_promo">
         <div class="promo__bg promo__bg-left revealator-duration10 revealator-slidedown revealator-once revealator-above revealator-within"></div>
         <img class="promo__image promo__image-right revealator-duration10 revealator-slidedown revealator-once revealator-above revealator-within" src="../pic/sale-pic-0.jpg" alt="">
-        <div class="sale-countdown-big">
+        <div class="sale-countdown-md">
           <div class="countdown-days">18</div>
           <div class="countdown-info">дней до окончания акции</div>
         </div>
@@ -50,7 +44,7 @@
           @@include('sale-item');
         </div>
         <div class="text-center more-wrapper">
-          <a href="" class="button button-more">
+          <a href="" class="button button-single button-more">
             Показать еще
           </a>
         </div>

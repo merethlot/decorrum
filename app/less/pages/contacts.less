@@ -1,0 +1,45 @@
+/* contacts */
+
+.contacts-section {
+  padding-bottom: 120px;
+  .wrapper_promo {
+
+  }
+  #map {
+    height: 530px;
+    background-color: @color-light-grey;
+  }
+}
+
+.contacts-list {
+  width: 28%;
+}
+
+.contacts-item {
+  margin: 45px 0;
+  &-city {
+    font-size: 10px;
+    text-transform: uppercase;
+    .font-lato;
+  }
+  &-name {
+    font-size: 18px;
+  }
+  .address, .phone, .mail {
+    .text-muted;
+    .font-lato;
+    font-size: 14px;
+    i.dc {
+      .text-warning;
+      display: inline-block;
+      vertical-align: sub;
+      margin-right: 8px;
+    }
+  }
+  .show-on-map {
+    display: inline-block;
+    font-size: 12px;
+    .font-lato;
+    .dashed-link(@color-base-orange);
+  }
+}

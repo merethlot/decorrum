@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decorrum - Контакты</title>
+
+  @@include('head');
+</head>
+<body class="inner">
+  <div class="blur">
+    @@include('header');
+    <div class="page-header">
+      <div class="wrapper">
+        <h1 class="page-heading text-center">
+          Контакты
+        </h1>
+      </div>
+    </div>
+    <section class="contacts-section promo">
+      <div class="wrapper wrapper_left wrapper_promo">
+        <div id="map" class="promo__image promo__image-right revealator-duration10 revealator-slidedown revealator-once revealator-above revealator-within"></div>
+        <div class="category category_right">Наши салоны</div>
+        <div class="contacts-list">
+          @@include('contacts-item');
+          @@include('contacts-item');
+          @@include('contacts-item');
+          @@include('contacts-item');
+          @@include('contacts-item');
+        </div>
+      </div>
+    </section>
+    @@include('footer');
+  </div>
+
+  @@include('modal-login');
+</body>
+</html>

@@ -1,0 +1,51 @@
+/* forms */
+.form-group {
+  position: relative;
+}
+
+.form-control {
+  width: 100%;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 5%;
+  border-bottom: 1px solid @color-text-muted;
+  .error &,
+  &.error {
+    border-color: @color-base-orange;
+  }
+}
+
+textarea.form-control {
+  background-color: @color-lighting-grey;
+  padding: 30px;
+  text-align: left;
+  text-transform: none;
+}
+
+.form-error {
+  color: @color-base-orange;
+  font-size: 12px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+  font-size: 18px;
+}
+
+.form-control-placeholder {
+  position: absolute;
+  top: 5px;
+  width: 100%;
+  left: 0;
+  transition: all 0.2s;
+  text-transform: uppercase;
+  .text-muted;
+}
+
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+  font-size: 65%;
+  transform: translate3d(0, -45%, 0);
+}
